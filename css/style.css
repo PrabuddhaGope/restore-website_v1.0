@@ -1,0 +1,27 @@
+.navbar
+{
+    padding: 2% 10%;
+}
+.navbar-brand
+{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+}
+#title
+{
+    background-color: #ef3f3f;
+}
+.main-heading
+{
+    padding: 10% 30%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+}
+.heading-dumbbell-logo
+{
+    padding-bottom: 5%;
+}
