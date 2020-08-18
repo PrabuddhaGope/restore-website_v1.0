@@ -1,27 +1,177 @@
+/*Color Palette
+Green : #61ed84
+sort-of-black: #333847
+dark-grey : #323232
+white*/
+
+
+/*Navbar*/
 .navbar
 {
-    padding: 2% 10%;
+    background-color: #fff;
+    padding: 1% 10%;
 }
-.navbar-brand
+.logo
 {
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-size: 2rem;
-    font-weight: 900;
+    width: 40%;
 }
+.nav-link
+{
+    color: rgba(0, 0, 0, 1) !important;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
 #title
 {
-    background-color: #ef3f3f;
+    background-color: #61ed84;
+    position: relative;
+    height: 70vh;
 }
 .main-heading
 {
-    padding: 10% 30%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 3rem;
+    font-family: 'Anonymous Pro', monospace;
+    position: relative;
+    display: inline-block;
+    top: 20%;
+    left: 5%;
 }
-.heading-dumbbell-logo
+.main-heading h1
 {
-    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'PT-sans', sans-serif;
+    margin-bottom: 2rem;
+}
+.main-heading h3
+{
+    font-size: 2rem;
+    color: #525252;
+}
+.sign-up-button
+{
+    margin-top: 4rem;
+}
+
+#features
+{
+    padding: 7% 10%;
+    background-color: #333847;
+    color: #61ed84;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.feature-icon
+{
+    width: 20%;
+    fill: #61ed84;
+    stroke: #61ed84;
+    stroke-width: 10px;
+    margin-bottom: 2rem;
+}
+#features p
+{
+    opacity: 0.8;
+}
+
+#cta
+{
+    font-family: 'Anonymous Pro', monospace;
+}
+#cta .form-control
+{
+    width: 40%;
+}
+#cta .sign-up-button
+{
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.cta-green
+{
+    background-color: #61ed84;
+    margin: 0;
+    padding: 3% 10% 3% 0;
+}
+.cta-green h2
+{
+    font-weight: 700;
+}
+.cta-black
+{
+    background-color: #333847;
+    padding: 4% 10% 3% 0;
+    color: #61ed84;
+}
+#cta label
+{
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+
+#about-us
+{
+    background-color: #323232;
+    padding: 10% 15% 15%;
+}
+#about-us h2
+{
+    font-size: 2.7rem;
+    font-family: 'Anonymous Pro', monospace;
+    color: #61ed84;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#about-us p
+{
+    font-size: 1rem;
+    font-family: 'Anonymous Pro', monospace;
+    color: #fff;
+}
+
+footer
+{
+    background-color: #333847;
+    padding: 3% 5% ;
+    text-align: center;
+    color: #61ed84;
+}
+
+footer p
+{
+    opacity: 0.6;
+}
+footer a
+{
+    color: #61ed84;
+    text-decoration: underline;
+}
+/*Images*/
+#dumbbells
+{
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 15%;
+}
+.cta-image
+{
+    float: left;
+    margin-right: 4rem;
+}
+#about-us img
+{
+    float: left;
+    width: 40%;
+    margin-right: 10rem;
+
+    /*For creating green shadow in the back*/
+    -webkit-box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
+    -moz-box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
+    box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
 }
