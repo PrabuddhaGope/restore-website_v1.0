@@ -27,7 +27,7 @@ white*/
 {
     background-color: #61ed84;
     position: relative;
-    height: 70vh;
+    height: 520px;
 }
 .main-heading
 {
@@ -158,6 +158,7 @@ footer a
     position: relative;
     right: 10%;
     top: 15%;
+    width: 40%;
 }
 .cta-image
 {
