@@ -26,7 +26,6 @@ white*/
 #title
 {
     background-color: #61ed84;
-    position: relative;
     height: 520px;
 }
 .main-heading
@@ -175,4 +174,56 @@ footer a
     -webkit-box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
     -moz-box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
     box-shadow: -16px 16px 0px 1px rgba(97,237,132,1);
+}
+
+
+/*Responsive Design for Mobile*/
+@media (max-width: 500px)
+{
+    body ,section
+    {
+        width: 127vw;
+    }
+    section
+    {
+        text-align: center;
+        padding: 10% 5%;
+    }
+    #title
+    {
+        height: auto;
+    }
+    .main-heading
+    {
+        position: static;
+    }
+    .sign-up-button
+    {
+        margin: 2rem 0;
+    }
+    #dumbbells
+    {
+        float: none;
+        width: 80%;
+        position: static;
+    }
+    #cta
+    {
+        padding: 0;
+    }
+    #cta input, #cta .form-control
+    {
+        width: 100vw;
+        margin: auto;
+    }
+    .cta-image
+    {
+        float: none;
+        width: 127vw;
+        margin: 0;
+    }
+    .cta-green, .cta-black
+    {
+        padding: 5% 10%;
+    }
 }
